@@ -4,7 +4,6 @@
 /*
 
 Shin Nagai
-Assignment 3
 Mastermind Program
 10/04/2015
 
@@ -18,7 +17,6 @@ void printPerms(int* perm,int n,int k, int** intAray, int col,int row);
 int checkBlack(int* perm, int n, int** intArray, int col, int row);
 int checkWhite(int* perm, int n, int** intArray, int col, int row,int* used,int usedCount,int i);
 
-///this is one other thing needs to be fixed. it always spits out n-1 time. (n is the number you are looking for)
 int counter=0;
 
 int main(){
